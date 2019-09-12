@@ -9,3 +9,10 @@ To call my etch-a-sketch program, use the command ./hw01.py --boxSize X
 from the directory in which the file is located where X indicates the height and width of the etch-a-sketch drawing area. For instance, putting in 20 for X will give you a 20x20 drawing area. 
 If you leave this blank and just input ./hw01.py then the  size will default to a  10x10  drawing area. The program has built in instructions that guides you on what to do after the program is 
 open and running. 
+
+
+## Prof. Yoder's comments
+
+Everything looks good.  Nice use of color in etch-a-sketch.
+
+Grade:  10/10
