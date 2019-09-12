@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#chmod +x
 #//////////////////////////////////////
 # Blake Emmert 
 # ECE 434 hw01: Etch-a-sketch
@@ -81,7 +82,7 @@ def newBox(stdscr, boxSize, color):
     stdscr.refresh()
     
     #Title and instructions
-    stdscr.addstr(0,0,"ETCH-A-SKETCH\nInstructions: Use the Up, Down, Left, and Right arrow keys to move the cursor and draw.\n              To change the color of the cursor press 'c'.\n              To clear the drawing, press 'n'.")
+    stdscr.addstr(0,0,"ETCH-A-SKETCH\nInstructions: Use the Up, Down, Left, and Right arrow keys to move the cursor and draw.\n              To change the color of the cursor press 'c'.\n              To clear the drawing, press 'n'.\n              To exit the program, press 'Ctrl' + 'C'")
     
     #Writes numbers for the boundary of the the etch a sketch work area
     j = 0;
