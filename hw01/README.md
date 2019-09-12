@@ -14,5 +14,6 @@ open and running.
 ## Prof. Yoder's comments
 
 Everything looks good.  Nice use of color in etch-a-sketch.
+No write permission on repo.
 
-Grade:  10/10
+Grade:  9/10
