@@ -1,0 +1,60 @@
+togglegpio.sh
+1.) Min V: 1.34V
+    Max V: 3.59V
+2.) Period: 236ms
+3.) Not very close to 100ms, but it toggles from high to low appx. every 118 ms
+4.) The extra ms comes from the processing overhead
+5.) using 3-4% of the CPU 
+6.) 
+Value:		Period:		CPU:
+0.1		236ms		3%
+0.05		135.5ms		6.1%
+0.01		55ms		13.5%
+.005		45.5ms		16%
+.001		37.5ms		20%
+
+7.) Not very stable
+8.) Still not very stable
+9.) It improved the period some
+10.) The period is slightly shorter but not much difference
+11.) 36ms is the shortest I was able to get
+
+hw02Toggle.py
+1.) Min V: 20mV
+    Max V: 3.56V
+2.) Period: 202ms
+3.) Not very cloe to 100ms, but it is toggling from high to low around 101ms which is very close
+4.) The python script is much quicker so there is little overhead
+5.) using 0.7% of the CPU
+6.) 
+Value:          Period:         CPU:
+0.1             202ms           0.7%
+0.05            102ms           1.4%
+0.01            21ms            5.3%
+.005            11ms            9.9%
+.001            149.5us          95%
+
+7.) Mostly stable
+8.) Mostly stable
+
+hw02Toggle.c
+1.) Min V: 20mV
+    Max V: 3.13V
+2.) Period 201ms
+3.) Not very close to 100ms, but it is toggling from high to low around 100ms which is exact
+4.) The overhead is very low on C so they don't differ much
+5.) using 0.2% of te CPU
+6.) 
+Value:          Period:         CPU:
+0.1             201ms           0.2%
+0.05            1021ms          0.7%
+0.01            21ms            2.8%
+.005            11ms            15%
+.001            7us             98%
+
+7.) Very Stable
+8.) Very Stable
+
+
+
+ 
