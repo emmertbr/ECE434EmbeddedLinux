@@ -12,3 +12,9 @@ the screen and pressing the reset button will reset the screen of any lit LEDs.
 EncoderEtchASketchhw03.py is the program that runs my Etch A Sketch program using encoders. 
 One encoder controls left and right movement and the other controls up and down movement. 
 Pressing the reset button will reset the screen of any lit LEDs.  
+
+## Prof. Yoder's comments
+
+Looks good.  
+
+Grade:  10/10
