@@ -9,3 +9,10 @@ cross compile. The screenclips in the Kernal Module Part 1 and Kernel Module Par
 files show that I completed the first two parts of the last part of the assignment. 
 My code to turn the LED off/on on both the rising and falling edge is contained in the file
 gpio_LED_Toggle.c
+
+
+## Prof. Yoder's comments
+
+Looks good. Nice screen clips
+
+Grade:  10/10
