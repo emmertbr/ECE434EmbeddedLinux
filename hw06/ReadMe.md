@@ -10,7 +10,7 @@ Watch:
 5.) Delta is the time it takes from an event to occur to when the real time task actually executes.
 6.) A cyclictest takes a time stamp and sleeps for a fixed duration then takes a time stamp after sleep and the total time minus the sleep time is the delta time.
 7.) The figure shows the preempt and preempt_rt plots which shows that the rt system performs better. 
-8.) Dispatch latency is the time it takes between the hardware firing and the scheduler being told the task needs to run. Sceduling latency is the amount of time it takes from the time 
+8.) Dispatch latency is the time it takes between the hardware firing and the scheduler being told the task needs to run. Scheduling latency is the amount of time it takes from the time 
 the scheduler has been notified to the time the CPU is given the task to execute. 
 9.) It is the main schedule for tasks. 
 10.) External event can't be scheduled because the low priority interrupt is currently executing in the CPU 
@@ -20,3 +20,11 @@ the scheduler has been notified to the time the CPU is given the task to execute
 PREEMPT_RT:
 I measured the response time of the rt kernel and non rt kernel and generated the histogram. I was using a make and make clean as the load. It appears as though the RT kernel has a bounded latency
 when compared to the non-RT kernel. You can see my histogram in out.png. 
+
+## Prof. Yoder's comments
+Looks good.  The light-load plot is missing.
+
+Late: -1
+Grade:  8/10
+
+Project Wiki is started  10/10
